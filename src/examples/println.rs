@@ -1,7 +1,7 @@
 // Import (via `use`) the `fmt` module to make it available.
 use std::fmt;
 
-fn main() {
+pub fn main() {
     println!("{} days", 31);
     println!("{0}, this is {1}. {1}, this is {0}", "Alice", "Bob");
     // As can named arguments.

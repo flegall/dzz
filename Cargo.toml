@@ -3,7 +3,6 @@ name = "hello-rust"
 version = "0.1.0"
 authors = ["Florent Le Gall <florent.legall@datadoghq.com>"]
 edition = "2018"
-default-run = "primitives"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

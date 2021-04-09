@@ -1,4 +1,4 @@
-fn main() -> () {
+pub fn main() -> () {
     primitives();
     litteral_and_operators();
     tuples();
