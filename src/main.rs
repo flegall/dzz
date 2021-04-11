@@ -10,6 +10,7 @@ fn main() -> () {
         "primitives" => examples::primitives::main(),
         "custom_types" => examples::custom_types::main(),
         "variable_bindings" => examples::variable_bindings::main(),
+        "types" => examples::types::main(),
         _ => panic!("no such binary configuration '{}'", binary),
     }
 }
