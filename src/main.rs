@@ -11,6 +11,7 @@ fn main() -> () {
         "custom_types" => examples::custom_types::main(),
         "variable_bindings" => examples::variable_bindings::main(),
         "types" => examples::types::main(),
+        "conversion" => examples::conversion::main(),
         _ => panic!("no such binary configuration '{}'", binary),
     }
 }
